@@ -9,12 +9,7 @@ import { useRef, useState } from 'react';
 
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBjOvWIZExOPj_TEIlYtbLPctsA_tW0eNo",
-  authDomain: "superchat-c4303.firebaseapp.com",
-  projectId: "superchat-c4303",
-  storageBucket: "superchat-c4303.appspot.com",
-  messagingSenderId: "847577548382",
-  appId: "1:847577548382:web:158a11c8de1e4e662856cf"
+  //Firebase config
 })
 
 const auth = firebase.auth()
